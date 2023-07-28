@@ -4,15 +4,57 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.min.js"></script>
     <script defer src="typing-game.js"></script>
+    <!-- Tachyons CSS Framework -->
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
 
   </head>
   <body>
     <main>
-      <h1>Typing Game</h1>
-      <div id="sketch-container"></div>
-      <p>Made using <a href="https://p5js.org">p5.js</a></p>
+      <!-- <div class="dt mw6 center pv4 pv5-m pv6-ns">
+        <div class="pa3 pa5-ns">
+          <p class="f5 lh-copy measure-narrow code navy">
+            Made using <a class="light-red" href="https://p5js.org">p5.js</a>
+          </p>
+       </div>
+       
+        <div id="sketch-container" class="dtc v-top"></div>
+      </div> -->
+      
+      <div class="pa3 pa5-ns">
+        <h1 class="f2 ttu avenir navy">Match the Number</h1>
+       <!-- p5.js Canvas. Script uses p5 parent() function to allow placement in div --> 
+        <div id="sketch-container" class="dtc v-top"></div>
+        <p class="f7 code navy lh-copy measure-narrow">
+          Are you fast enough to beat the computer (i.e. That thing projecting all the numbers at you)? 
+        </p>
+        <p class="f7 avenir ttu b navy lh-copy measure-narrow">
+          How to play >
+        </p>
+        <p class="f7 code navy lh-copy measure-narrow">
+          Play on a computer (not mobile-ready...yet). Type the number you see when it comes at you.
+        </p>
+        <p class="f7 code navy lh-copy measure-narrow">
+          If you miss, the screen will flash red. If the key you pressed matches the flying number, the screen will flash another (random) color.
+        </p>
+        <p class="f7 avenir b ttu navy lh-copy measure-narrow">
+          A game = ten attempts.
+        </p>
+        <p class="f7 avenir b ttu light-red lh-copy measure-narrow">
+          Six matches or more = A WIN.
+        </p>
+        <p class="f7 avenir b ttu light-red lh-copy measure-narrow">
+          Three misses = A LOSS! 
+        </p>
+        <p class="f7 code navy lh-copy measure-narrow">
+          But you can try again when the game's over. PRO TIP > you dont have to try every round. Shhhh!
+        </p>
+        <p class="f7 code navy ttu lh-copy measure-narrow ">
+          Made using <a class="light-red" href="https://p5js.org">p5.js</a>
+        </p>
+      </div>
+      
     </main>
     
     

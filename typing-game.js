@@ -58,7 +58,7 @@ const randomCol = [col.r, col.g, col.b];
 function setup() {
   // EMBED SKETCH IN A DIV
   // https://editor.p5js.org/KevinWorkman/full/MqDBoMKIB
-  let canvas = createCanvas(800, 400);
+  let canvas = createCanvas(800, 500);
   canvas.parent("sketch-container");
   
 }
@@ -122,65 +122,31 @@ function draw() {
 
 ///// USER INTERACTION /////
 
-///// HIT OR MISS FEEDBACK MESSAGES /////
-// RECEIVES INPUT FROM 'HIT' OR 'MISS' CACHE
-function scoreMsg (solution){
-  // MESSAGE ARRAYS //
-  let hitMsgs = [
-    `NICE SHOT!`,
-    `YOU'RE ON FIRE!`,
-    `CHA-CHING!`,
-    `BOOM!`,
-    `GOAT TYPER!`,
-    `GET IT!`,
-  ]
-  let missMsgs = [
-    `ALMOST!`,
-    `YOU GOT THIS!`,
-    `BE THE NUM!`,
-    `DANG!`,
-    `NOPE...`,
-    `GRRR!`,
-  ]
-  
-  let msgs;
-  
-  push() // push() and pop() used around this block for translate() p5.js positioning
-  textAlign(CENTER, CENTER)
-  
-  // CONDITIONAL FOR MESSAGE DISPLAY (FROM HIT/MISS ARRAYS)
-  if (solution === true) {
-    msgs = hitMsgs
-  } else if (solution === false) {
-    msgs = missMsgs
-  }
-  
-  translate(width/2, height/2) // Centers text, along with push() & pop()
-  text(msgs[parseInt(random(msgs.length), 10)], 0, 0)
-  pop()
-  // p5js random() function generates a random value using the length Array method
-  // need to use parseInt, otherwise the value will contain decimals
-  // msgs[] is what we need instead of dot notation to access this randomly.
-  // and won't grab from the array
-  
-}
 ///// GAME OVER SCREEN /////
 function showGameOver(score) {
   push(); // needed when positioning using translate()
   background(grenadinePink);
+  
   // PROPERTIES
   textAlign(CENTER, CENTER);
   fill(deepIndigo);
   textSize(36);
+  
   // OUTPUT
   // GAME OVER
   translate(width / 2, height / 2); // places this in the middle of the screen
   text(`GAME OVER!`, 0, 0); // 0 when positioning using translate
 
-  // MATCHES
+  // MATCHES MESSAGES
   textSize(18);
   translate(0, 35); // places this in the middle of the screen
-  text(`You matched ${score.win} times!`, 0, 0); // Display stored true matches
+  // WIN STATE/LOSE STATE CONDITIONAL
+  if (score.win >= 6) {
+    text(`${score.win} matches for the WIN!`, 0, 0); // Display stored true matches
+  } else if (score.loss === 3) {
+    text(`Ya missed ${score.loss}! Wanna Try again?`, 0, 0); // Display stored true matches
+  }
+  
 
   // RESTART TEXT
   // map() maps between a given min and max (0, 255)
@@ -193,7 +159,7 @@ function showGameOver(score) {
   textSize(18);
   fill(0, 8, 49, blinkingText); // Alpha Gets map(sin()) treatment
   translate(0, 70); // places this in the middle of the screen
-  text(`PRESS ENTER`, 0, 0); // Display stored true matches
+  text(`PLAY AGIAN`, 0, 0); // Display stored true matches
   pop(); // needed when positioning using translate()
 }
 
@@ -329,7 +295,7 @@ function GuessItem(x, y, scl) {
 
 
 
-
+///// DAILY PROGRESS & COMMITS //////
 // 7/25 PM
 // FIGMA WIREFRAME // 
 // https://www.figma.com/file/SrXO2VK3EPpqCB1WxtARhf/p5.js-Game?type=whiteboard&node-id=129-420&t=mSykA24IbvEJqwEC-0
@@ -394,9 +360,36 @@ function GuessItem(x, y, scl) {
 // Update HTML link to script after renaming sketch.js to typing-game.js
 
 // 7/27 PM, Part 3
-// Enable GitHub Pages for repo "https://andrewdoak.github.io/p5js-typing-game/"
+// Following "The Digital AM" Tutorial on YouTube: https://www.youtube.com/watch?v=x_i9Rg3Ki54
+// => Enable GitHub Pages for repo "https://andrewdoak.github.io/p5js-typing-game/"
 // Test that site is working
+
 // Add some basic HTML to the page.
 // Position p5.js canvas in a div and modify setup() function in typing-game.js sketch using
 // Instructions at CODING TRAIN => // https://editor.p5js.org/KevinWorkman/full/MqDBoMKIB
+
 // Update HTML link to script after renaming sketch.js to typing-game.js
+
+// 7/27 PM, Part 4
+// Link Tachyons CSS Framework to HTML
+// Delete script.js after confirmed site is live (script was empty anyway)
+
+// *TO FIX: Attempted :root variables, but Tachyons seems to be taking precedence
+
+// IMPORTANT (js): Added a conditional that checks 'hits' vs. 'misses'. 
+// Different messages are displayed for a win (5 matches or more) vs. a lose (3 misses)
+
+// HTML: Added game instructions
+// CSS: Styled main page
+
+// *TO FIX: 
+// CSS: better line width. CSS Color variables
+// HTML: Three pages to match wireframe
+// JS: Random Color should ideally be generated with every "hit"
+// DOM: Instead of keyboard, create buttons with event listeners to click on the numbers. (Mobile enabling, too)!
+
+// *TO DO: 
+// CREATE ReadMe.md
+// https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3
+
+// OUTLINE & PLAN Presentation

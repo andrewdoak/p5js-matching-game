@@ -1,7 +1,29 @@
+/* STYLING DONE WITH TACHYONS CSS FRAMEWORK */
+/* OTHER ATTEMPTS COMMENTED BELOW */
+
+
+/* NOT WORKING: TACYHYONS IS TAKING PRECEDENT, I THINK */
+/* :root {
+ --grenadine-Pink: (255, 97, 107);
+ --deep-Indigo: (0, 8, 49);
+ --etruscan-Red: (201, 48, 62);
+} */
+
+
 html, body {
   margin: 0;
   padding: 0;
 }
+
 canvas {
   display: block;
 }
+
+/* NOT WORKING: TACYHYONS IS TAKING PRECEDENT, I THINK */
+/* a {
+  color: var(--etruscan-Red)
+}
+
+h1 {
+  color: var(--grenadine-Pink)
+} */
