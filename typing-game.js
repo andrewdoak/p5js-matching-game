@@ -6,6 +6,7 @@
 ////////////////////////
 // p5.js TYPING GAME
 ////////////////////////
+
 // DAILY PROGRESS 
 // COMMENTS AT BOTTOM OF CODE
 
@@ -382,14 +383,23 @@ function GuessItem(x, y, scl) {
 // HTML: Added game instructions
 // CSS: Styled main page
 
+// 7/27 PM, Part 5
+// Changed game board/canvas size in typing-game.js setup() function
+// Updated INSTRUCTIONS copy for user-friendliness and concision.
+// Created README.md boilerplate
+
+// 7/28 and Beyond
+// *TO DO: 
+// WRITE ReadMe.md
+// https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3
+
+// OUTLINE & PLAN Presentation
+
+
+
 // *TO FIX: 
 // CSS: better line width. CSS Color variables
 // HTML: Three pages to match wireframe
 // JS: Random Color should ideally be generated with every "hit"
 // DOM: Instead of keyboard, create buttons with event listeners to click on the numbers. (Mobile enabling, too)!
 
-// *TO DO: 
-// CREATE ReadMe.md
-// https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3
-
-// OUTLINE & PLAN Presentation
