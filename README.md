@@ -45,8 +45,9 @@ The color scheme for the project is [Combination 6](https://sanzo-wada.dmbk.io/c
 
 
 ## Roadmap
-+ Implement buttons on DOM that interact with the game sketch. In lieu of typing.
++ Implement buttons on DOM that interact with the game sketch. In lieu of typing. Also mobile-friendlier.
 + Fix random color generator so that on each 'hit' or match, a different color flashes up.
++ After playing multiple times, modify game to 20 rounds & change win and lose amounts.
 + Fix CSS bugs and work towards matching layout and design.
 + Create and style new pages to match the original wireframe concept.
 + More to be added...
