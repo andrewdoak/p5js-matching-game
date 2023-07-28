@@ -56,7 +56,11 @@ const randomCol = [col.r, col.g, col.b];
 // console.log(randomCol);
 
 function setup() {
-  createCanvas(800, 400);
+  // EMBED SKETCH IN A DIV
+  // https://editor.p5js.org/KevinWorkman/full/MqDBoMKIB
+  let canvas = createCanvas(800, 400);
+  canvas.parent("sketch-container");
+  
 }
 
 function draw() {
@@ -387,4 +391,12 @@ function GuessItem(x, y, scl) {
 // DOWNLOAD p5.js project directory
 // Integrate with existing project directory
 // Transfer daily progress comments to typing-game.js
+// Update HTML link to script after renaming sketch.js to typing-game.js
+
+// 7/27 PM, Part 3
+// Enable GitHub Pages for repo "https://andrewdoak.github.io/p5js-typing-game/"
+// Test that site is working
+// Add some basic HTML to the page.
+// Position p5.js canvas in a div and modify setup() function in typing-game.js sketch using
+// Instructions at CODING TRAIN => // https://editor.p5js.org/KevinWorkman/full/MqDBoMKIB
 // Update HTML link to script after renaming sketch.js to typing-game.js
