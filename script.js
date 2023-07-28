@@ -57,3 +57,10 @@
 // Finish Tutorial "Class" (MODULES 7-12)
 // Work on creating a basic Tic Tac Toe in p5 (my Backup)
 // STRETCH: get some boilerplate HTML/CSS and 'publish' either Tic Tac Toe, or a sketch to GitHub pages (I have learned how to do this, as well as how to publish the sketch on a site)
+
+// 7/27 PM, Part 1
+// WORKING KEYBOARD MATCHING GAME
+// Worked on Tic Tac Toe (backup) early AM through first hour of class
+// Pivoted to Number game for stretch learning and go for broke
+// Working typing game minus a few UI features that I felt actually detracted, and were too advanced
+// https://editor.p5js.org/andrewdoak/sketches/3BBWiGMjf
