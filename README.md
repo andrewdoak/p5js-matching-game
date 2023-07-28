@@ -70,7 +70,7 @@ I also referred to the [Reference section](https://p5js.org/reference/) on p5.js
 
 Thank you Ben Fry and Casey Reas, the creators of [Processing](https://processing.org), a Java-based [Library](https://en.wikipedia.org/wiki/Processing) upon which p5.js is based. Read more about its history [here](https://medium.com/processing-foundation/a-modern-prometheus-59aed94abe85)
 
-As mentioned above, design thinking and execution were simplified and expedited with the aid of [Tachyons](https://tachyons.io) and Wada Sanzo's [Dictionary of Color Combinations](https://en.seigensha.com/books/978-4-86152-247-5/), or better, the [site](https://sanzo-wada.dmbk.io) [Dain Kim](https://dain.kim) made so people could use its contents more easily and freely.
+As mentioned above, design thinking and execution were simplified and expedited with the aid of [Tachyons](https://tachyons.io) and Wada Sanzo's [Dictionary of Color Combinations](https://en.seigensha.com/books/978-4-86152-247-5/), or better, the [site](https://sanzo-wada.dmbk.io) that [Dain Kim](https://dain.kim) makes the book's color harmonies available to anyone, anywhere through the internet.
 
 ## License
 MIT License
