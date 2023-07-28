@@ -389,10 +389,12 @@ function GuessItem(x, y, scl) {
 // Created README.md boilerplate
 
 // 7/28 and Beyond
-// *TO DO: 
-// WRITE ReadMe.md
+// WROTE ReadMe.md
 // https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3
+// Added asset to /images (color scheme screenshot).
+// Comment updates
 
+// *TO DO: 
 // OUTLINE & PLAN Presentation
 
 
