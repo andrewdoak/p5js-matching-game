@@ -145,7 +145,7 @@ function showGameOver(score) {
   if (score.win >= 6) {
     text(`${score.win} matches for the WIN!`, 0, 0); // Display stored true matches
   } else if (score.loss === 3) {
-    text(`Ya missed ${score.loss}! Wanna Try again?`, 0, 0); // Display stored true matches
+    text(`Ya missed ${score.loss}! Wanna try again?`, 0, 0); // Display stored true matches
   }
   
 
