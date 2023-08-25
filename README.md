@@ -69,4 +69,4 @@ Thank you Ben Fry and Casey Reas, the creators of [Processing](https://processin
 As mentioned above, design thinking and execution were simplified and expedited with the aid of [Tachyons](https://tachyons.io) and Wada Sanzo's [Dictionary of Color Combinations](https://en.seigensha.com/books/978-4-86152-247-5/), or better, the [site](https://sanzo-wada.dmbk.io) that [Dain Kim](https://dain.kim) makes the book's color harmonies available to anyone, anywhere through the internet.
 
 ## License
-2023 (c) Copyright Andrew Doak [mrandrewdoak@gmail.com](mailto:mrandrewdoak@gmail.com)
+2023 © Copyright: Andrew Doak [mrandrewdoak@gmail.com](mailto:mrandrewdoak@gmail.com)
