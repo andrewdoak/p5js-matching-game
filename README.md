@@ -52,12 +52,8 @@ The color scheme for the project is [Combination 6](https://sanzo-wada.dmbk.io/c
 + Create and style new pages to match the original wireframe concept.
 + More to be added...
 
-<!-- ## Code Example
-Show what the library does as concisely as possible, developers should be able to figure out how your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
-
-
 ## Contribute
-Let people know how they can contribute into your project. A contributing guideline will be a big plus. -->
+Let people know how they can contribute into your project. A contributing guideline will be a big plus.
 
 ## Credits
 To learn p5.js I used the [LinkedIn Learning](https://www.linkedin.com/learning/?u=116852650) platform and [Chicago Public Library's](https://www.chipublib.org) subscription to the service. I'm so grateful for both.
@@ -73,24 +69,4 @@ Thank you Ben Fry and Casey Reas, the creators of [Processing](https://processin
 As mentioned above, design thinking and execution were simplified and expedited with the aid of [Tachyons](https://tachyons.io) and Wada Sanzo's [Dictionary of Color Combinations](https://en.seigensha.com/books/978-4-86152-247-5/), or better, the [site](https://sanzo-wada.dmbk.io) that [Dain Kim](https://dain.kim) makes the book's color harmonies available to anyone, anywhere through the internet.
 
 ## License
-MIT License
-
-Copyright (c) Andrew Doak (mrandrewdoak@gmail.com)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2023 (c) Copyright Andrew Doak [mrandrewdoak@gmail.com](mailto:mrandrewdoak@gmail.com)
