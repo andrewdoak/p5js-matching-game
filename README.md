@@ -2,7 +2,7 @@
 <!-- https://meakaakka.medium.com/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3 -->
 
 
-# MATCH THAT NUMBER
+# MATCH THE NUMBER
 MATCH THAT NUMBER is a typing game written using the [p5.js](https://p5js.org) library. where the player needs to try and match the number that projects out from the game board by typing the correct key on the keyboard before the next number comes up. You score by getting a match. You "strike" by typing the wrong number. Three strikes, and you're out. GAME OVER.
 
 ## Motivation
